@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "186d3716-e8f6-4cc1-a650-4a375b307df9",
+		"name": "Covid-19 Data Analysis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5100/latest-covid-data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/latest-covid-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"latest-covid-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/most-affected-country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/most-affected-country",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"most-affected-country"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/least-affected-country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/least-affected-country",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"least-affected-country"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/highest-cases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/highest-cases",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"highest-cases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/lowest-cases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/lowest-cases",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"lowest-cases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/total-cases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/total-cases",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"total-cases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/highest-covid-efficiency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/highest-covid-efficiency",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"highest-covid-efficiency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/lowest-covid-efficiency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/lowest-covid-efficiency",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"lowest-covid-efficiency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/highest-active-cases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/highest-active-cases",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"highest-active-cases"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5100/lowest-active-cases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5100/lowest-active-cases",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5100",
+					"path": [
+						"lowest-active-cases"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
